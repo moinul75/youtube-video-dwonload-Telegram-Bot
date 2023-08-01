@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
@@ -12,12 +15,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cli-progress": "^3.12.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "fs": "^0.0.1-security",
     "messaging-api-messenger": "^1.1.0",
     "node-telegram-bot-api": "^0.61.0",
     "nodemon": "^3.0.1",
+    "progress": "^2.0.3",
     "ytdl-core": "^4.11.5"
   }
 }
